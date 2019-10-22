@@ -1,0 +1,1 @@
+python test.py -gs 0 1 -b 256 -nw 8 -en 'resnet-test' -model 'resnet50' -nc 1000 -dir /media/DatasetSSD/ImageNet -tm checkpoints/resnet50/e1/weak-learner.pth.tar checkpoints/resnet50/e2/weak-learner.pth.tar checkpoints/resnet50/e3/weak-learner.pth.tar checkpoints/resnet50/e4/weak-learner.pth.tar

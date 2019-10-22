@@ -1,0 +1,1 @@
+python trainval.py -gs 0 1 -model 'resnet50' -b 128 -nw 8 -ilog 100 -dir /media/DatasetSSD/ImageNet -cifrec 10000 -cefrec 5 -cpath checkpoints/resnet50-reproduce/e1 -e 90 -lr 0.1 -iter 0 -epo 0 -nc 1000 -en 'resnet-reproduce' -lam 0.7 -ada true -rm checkpoints/resnet50-19c8e357.pth 
